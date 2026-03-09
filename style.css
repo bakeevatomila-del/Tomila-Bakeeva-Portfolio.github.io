@@ -664,7 +664,7 @@ button {
   .hero-ascii-video {
     max-width: 100%;
     margin-left: 0;
-    opacity: 0,7;
+    opacity: 1;
   }
 
   .hero-ascii-video video {
