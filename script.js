@@ -28,7 +28,7 @@ const projects = [
 
   {
     slug: "web-design-project",
-    title: "Web Site for CMC Claus",
+    title: "Web Site, CMC Claus",
     category: "web",
     image: "media/website.png",
     textDe: "IN ENTWICKLUNG: Webdesign / Illustrationen",
