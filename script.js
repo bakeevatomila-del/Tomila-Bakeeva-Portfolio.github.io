@@ -40,7 +40,7 @@ const projects = [
     title: "Skull City",
     category: "3d",
     image: "media/skull_city.png",
-    textDe: "IN ENTWICKLUNG: 3D-Konzept / Environment",
+    textDe: "IN ENTWICKLUNG: 3D Konzept / Environment",
     textEn: "IN PROGRESS: 3D Concept / Environment"
   },
   
@@ -49,7 +49,7 @@ const projects = [
     title: "Character Work",
     category: "3d",
     image: "media/character.png",
-    textDe: "IN ENTWICKLUNG: 3D-Charakter",
+    textDe: "IN ENTWICKLUNG: 3D Charakter",
     textEn: "IN PROGRESS: 3D Character"
   },
   
