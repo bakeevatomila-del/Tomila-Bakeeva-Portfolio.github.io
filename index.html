@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tomila Bakeeva | Portfolio</title>
+  <meta
+    name="description"
+    content="Portfolio of Tomila Bakeeva — Digital Sculptor, Web Designer and Concept Artist."
+  />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#top" class="header-brand">Tomila Bakeeva</a>
+
+      <div class="header-right">
+        <nav class="nav">
+          <a href="#portfolio" data-en="portfolio" data-de="portfolio">portfolio</a>
+          <a href="#about" data-en="about me" data-de="über mich">über mich</a>
+          <a href="#contact" data-en="contact" data-de="kontakt">kontakt</a>
+        </nav>
+
+        <div class="lang-switch" aria-label="Language switcher">
+          <button class="lang-btn active" data-lang="de" type="button">DE</button>
+          <button class="lang-btn" data-lang="en" type="button">EN</button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero section-hero">
+      <div class="container hero-grid">
+        <div class="hero-left">
+          <h1
+            class="hero-title"
+            data-en="3D and Web Designer, Concept Artist"
+            data-de="3D and Web Designerin, Concept Artist"
+          >
+            3D and Web Designerin, Concept Artist
+          </h1>
+
+          <p
+            class="hero-text"
+            data-en="Media Engineering student focusing on 3D design, digital art and web development. Currently looking for a mandatory internship."
+            data-de="Media-Engineering-Studentin mit Fokus auf 3D-Design, digitale Gestaltung und Webentwicklung. Aktuell auf der Suche nach einem Pflichtpraktikum."
+          >
+            Media-Engineering-Studentin mit Fokus auf 3D-Design, digitale Gestaltung und Webentwicklung. Aktuell auf der Suche nach einem Pflichtpraktikum.
+          </p>
+
+          <div class="hero-actions">
+            <a
+              class="btn btn-primary"
+              href="#portfolio"
+              data-en="view portfolio"
+              data-de="portfolio ansehen"
+            >
+              portfolio ansehen
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-right">
+          <div class="hero-ascii-video" aria-hidden="true">
+            <video autoplay muted loop playsinline preload="auto">
+              <source src="media/cat_skull_ascii.mp4" type="video/mp4" />
+            </video>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="section-divider" aria-hidden="true">
+      <pre>☾ ⋆ ✦ ⋆ ☽</pre>
+    </div>
+
+    <section id="portfolio" class="section">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <h2 data-en="Portfolio" data-de="Portfolio">Portfolio</h2>
+          </div>
+
+          <div class="filters" id="filters">
+            <button class="filter-btn active" data-filter="all" data-en="all" data-de="alle">alle</button>
+            <button class="filter-btn" data-filter="3d" data-en="3d" data-de="3d">3d</button>
+            <button class="filter-btn" data-filter="web" data-en="web design" data-de="web-design">webdesign</button>
+            <button class="filter-btn" data-filter="concept" data-en="concept" data-de="concept">concept</button>
+          </div>
+        </div>
+
+        <div class="projects-grid" id="projects-grid"></div>
+      </div>
+    </section>
+
+    <div class="section-divider" aria-hidden="true">
+      <pre>☾ ⋆ ✦ ⋆ ☽</pre>
+    </div>
+
+    <section id="about" class="section">
+      <div class="container about-grid">
+        <div class="about-main">
+          <div class="section-head section-head--stack">
+            <div>
+              <h2 data-en="About me" data-de="Über mich">Über mich</h2>
+            </div>
+          </div>
+
+          <p
+            class="about-text"
+            data-en="I study Media Engineering at the Technische Hochschule Nürnberg Georg Simon Ohm and work across 3D design, concept development, and web design."
+            data-de="Ich studiere Media Engineering an der Technischen Hochschule Nürnberg Georg Simon Ohm und arbeite an der Schnittstelle von 3D-Design, Konzeptentwicklung und Webdesign."
+          >
+            Ich studiere Media Engineering an der Technischen Hochschule Nürnberg Georg Simon Ohm und arbeite an der Schnittstelle von 3D-Design, Konzeptentwicklung und Webdesign.
+          </p>
+
+          <div class="study-highlight">
+            <span class="study-label" data-en="Degree program" data-de="Studiengang">Studiengang</span>
+            <strong
+              data-en="Media Engineering connects programming, computer graphics, and design."
+              data-de="Media Engineering ist die Verbindung von Programmierung, Computergrafik und Design."
+            >
+              Media Engineering ist die Verbindung von Programmierung, Computergrafik und Design.
+          </strong>
+          </div>
+
+          <p
+            class="about-text"
+            data-en="Alongside my personal 3D projects, I also gain practical experience in web development: I am currently building a WordPress website for a company, including custom illustrations."
+            data-de="Neben persönlichen 3D-Projekten sammle ich praktische Erfahrung im Webbereich: Für ein Unternehmen entwickle ich derzeit eine Website auf WordPress und erstelle dazu Illustrationen."
+          >
+            Neben persönlichen 3D-Projekten sammle ich praktische Erfahrung im Webbereich: Für ein Unternehmen entwickle ich derzeit eine Website auf WordPress und erstelle dazu Illustrationen.
+          </p>
+
+          <a
+            class="cv-link"
+            href="media/Lebenslauf.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            data-en="View / Download CV"
+            data-de="Lebenslauf ansehen / herunterladen"
+          >
+            Lebenslauf ansehen / herunterladen
+          </a>
+        </div>
+
+        <aside class="about-side">
+          <!-- <div class="profile-card">
+            <img src="media/profile.jpg" alt="Tomila Bakeeva" />
+            <div class="profile-meta">
+              <h3>Tomila Bakeeva</h3>
+              <p>Nürnberg, Germany</p>
+            </div>
+          </div> -->
+
+          <div class="info-card">
+            <h3 data-en="Focus" data-de="Schwerpunkte">Schwerpunkte</h3>
+            <ul>
+              <li data-en="3D Design" data-de="3D-Design">3D-Design</li>
+              <li data-en="Web Design" data-de="Webdesign">Webdesign</li>
+              <li data-en="Concept Art" data-de="Concept Art">Concept Art</li>
+            </ul>
+          </div>
+
+          <div class="info-card">
+            <h3 data-en="Software" data-de="Programme">Programme</h3>
+            <ul>
+              <li>Blender</li>
+              <li>ZBrush</li>
+              <li>WordPress</li>
+              <li>Adobe Creative Cloud</li>
+              <li>Python, C++, HTML, CSS</li>
+            </ul>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <div class="section-divider" aria-hidden="true">
+      <pre>☾ ⋆ ✦ ⋆ ☽</pre>
+    </div>
+
+    <section id="contact" class="section">
+      <div class="container">
+        <div class="section-head section-head--stack">
+          <div>
+            <h2 data-en="Contact" data-de="Kontakt">Kontakt</h2>
+          </div>
+        </div>
+
+        <div class="contact-grid contact-grid--simple">
+          <div class="contact-card contact-card--static">
+            <span class="contact-title">Email</span>
+            <span class="contact-sub">bakeevatomila@outlook.de</span>
+          </div>
+
+          <div class="contact-card contact-card--static">
+            <span class="contact-title" data-en="Phone" data-de="Telefon">Telefon</span>
+            <span class="contact-sub">+49 1631681646</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container site-footer__inner">
+
+      <span class="footer-copy">
+        © 2026 Tomila Bakeeva | Portfolio
+      </span>
+
+      <pre class="footer-cat">=^._.^=</pre>
+
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
