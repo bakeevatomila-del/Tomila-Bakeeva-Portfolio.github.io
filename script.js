@@ -4,8 +4,8 @@ const projects = [
     title: "Skull Sculpt",
     category: "3d",
     image: "media/skull.png",
-    textDe: "Digital Sculpt / Studie",
-    textEn: "Digital Sculpt / Study"
+    textDe: "Digital Sculpt | Studie",
+    textEn: "Digital Sculpt | Study"
   }, 
 
   {
@@ -13,8 +13,8 @@ const projects = [
     title: "Mushroom",
     category: "3d",
     image: "media/mushroom.png",
-    textDe: "3D Charakter / Stylized",
-    textEn: "3D Charakter / Stylized"
+    textDe: "3D Charakter | Stylized",
+    textEn: "3D Charakter | Stylized"
   },
 
   {
@@ -22,28 +22,10 @@ const projects = [
     title: "Controller",
     category: "3d",
     image: "media/console.png",
-    textDe: "3D Render / Hard Surface",
-    textEn: "3D Render / Hard Surface"
+    textDe: "3D Render | Hard Surface",
+    textEn: "3D Render | Hard Surface"
   },
 
-  {
-    slug: "web-design-project",
-    title: "Web Site, CMC Claus",
-    category: "web",
-    image: "media/website.png",
-    textDe: "IN ENTWICKLUNG: Webdesign / Illustrationen",
-    textEn: "IN PROGRESS: Web Design / Illustrations"
-  },
-
-  {
-    slug: "skull-city",
-    title: "Skull City",
-    category: "3d",
-    image: "media/skull_city.png",
-    textDe: "IN ENTWICKLUNG: 3D Konzept / Environment",
-    textEn: "IN PROGRESS: 3D Concept / Environment"
-  },
-  
   {
     slug: "character-work",
     title: "Character Work",
@@ -51,6 +33,24 @@ const projects = [
     image: "media/character.png",
     textDe: "IN ENTWICKLUNG: 3D Charakter",
     textEn: "IN PROGRESS: 3D Character"
+  },
+
+  {
+    slug: "web-design-project",
+    title: "Web Site, CMC Claus",
+    category: "web",
+    image: "media/website.png",
+    textDe: "WordPress | Web Design | Illustrationen",
+    textEn: "WordPress | Webdesign | Illustrations"
+  },
+
+  {
+    slug: "skull-city",
+    title: "Skull City",
+    category: "3d",
+    image: "media/skull_city.png",
+    textDe: "IN ENTWICKLUNG: 3D Konzept | Environment",
+    textEn: "IN PROGRESS: 3D Concept | Environment"
   },
   
 ];
